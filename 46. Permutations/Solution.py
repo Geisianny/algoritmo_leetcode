@@ -16,10 +16,22 @@ class Solution:
         backtrack(0)
         return permutations
 
-if __name__ == "__main__":
+def entradas(nums):
     solution = Solution()
-    nums_input = input("digite a lista de numeros no formato[1,2,3]: ")
-    nums = ast.literal_eval(nums_input)
+    
     result = solution.permute(nums)
     print("Input:", nums)
     print("Output:", result)
+
+if __name__ == "__main__":
+    nums = [1,2,3]
+    entradas(nums)
+    print()
+
+    nums = [0,1]
+    entradas(nums)
+    print()
+    
+    nums = [1]
+    entradas(nums)
+   
