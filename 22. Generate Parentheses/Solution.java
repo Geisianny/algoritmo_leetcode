@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class Solution {
+public class Solution22 {
 
     public List<String> generateParenthesis(int n) {
         List<String> result = new ArrayList<>();
@@ -30,7 +30,7 @@ public class Solution {
         int n = 3;
         System.out.println("Input: " + n);
 
-        Solution solution = new Solution();
+        Solution22 solution = new Solution22();
         List<String> output = solution.generateParenthesis(n);
 
         System.out.println("Output: " + output);
