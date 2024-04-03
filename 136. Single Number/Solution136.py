@@ -1,7 +1,7 @@
 from typing import List
 import re
 
-class Solution:
+class Solution136:
     def singleNumber(self, nums: List[int]) -> int:
         result = 0
         for num in nums:

@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class Solution {
+public class Solution78 {
     public List<List<Integer>> subsets(int[] nums) {
         List<List<Integer>> lst = new ArrayList<>();
         lst.add(new ArrayList<>());
@@ -33,7 +33,7 @@ public class Solution {
     }
 
     public static void entrada(int[] nums) {
-        Solution solution = new Solution();
+        Solution78 solution = new Solution78();
         List<List<Integer>> result = solution.subsets(nums);
         System.out.println("Input: " + java.util.Arrays.toString(nums));
         System.out.println("Output: " + result);

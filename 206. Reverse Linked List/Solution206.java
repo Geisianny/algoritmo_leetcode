@@ -7,7 +7,7 @@ class ListNode {
     }
 }
 
-class Solution {
+class Solution206 {
     public ListNode reverseList(ListNode head) {
         ListNode prev = null;
         ListNode current = head;
@@ -55,7 +55,7 @@ class Solution {
             current = current.next;
         }
 
-        Solution solution = new Solution();
+        Solution206 solution = new Solution206();
         ListNode reversedListHead = solution.reverseList(head);
 
         System.out.println("Output: " + solution.getListString(reversedListHead));

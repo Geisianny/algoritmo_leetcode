@@ -3,7 +3,7 @@ import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-class Solution {
+class Solution136 {
     public int singleNumber(int[] nums) {
         int result = 0;
         for (int num : nums) {
@@ -32,7 +32,7 @@ class Solution {
         List<Integer> nums = extractNumbers(entrada);
 
         // Execução da função singleNumber
-        Solution solution = new Solution();
+        Solution136 solution = new Solution136();
         int result = solution.singleNumber(nums.stream().mapToInt(Integer::intValue).toArray());
 
         // Saída do resultado

@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Solution {
+public class Solution226 {
     public int singleNumber(int[] nums) {
         int result = 0;
         for (int num : nums) {
@@ -21,7 +21,7 @@ public class Solution {
     }
 
     private static void printResult(int[] nums) {
-        Solution solution = new Solution();
+        Solution226  solution = new Solution226 ();
         System.out.println("Input: " + Arrays.toString(nums));
         int result = solution.singleNumber(nums);
         System.out.println("Output: " + result + "\n");

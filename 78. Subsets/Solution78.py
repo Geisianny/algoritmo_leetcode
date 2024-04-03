@@ -2,7 +2,7 @@ from typing import List
 import ast
 import itertools
 
-class Solution:
+class Solution78:
     def subsets(self, nums: List[int]) -> List[List[int]]:
         lst = [[]]
         for i in range(1, len(nums) + 1):
@@ -11,7 +11,7 @@ class Solution:
         return lst
 
 def entrada(nums):
-    solution = Solution()
+    solution = Solution78()
     result = solution.subsets(nums)
     print("Input:", nums)
     print("Output:", result)

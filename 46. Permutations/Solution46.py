@@ -1,7 +1,7 @@
 from typing import List
 import ast
 
-class Solution:
+class Solution46:
     def permute(self, nums: List[int]) -> List[List[int]]:
         def backtrack(start):
             if start == len(nums):
@@ -17,7 +17,7 @@ class Solution:
         return permutations
 
 def entradas(nums):
-    solution = Solution()
+    solution = Solution46()
     
     result = solution.permute(nums)
     print("Input:", nums)

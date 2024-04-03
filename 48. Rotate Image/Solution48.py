@@ -1,6 +1,6 @@
 from typing import List
 
-class Solution:
+class Solution48:
     def rotate(self, matrix: List[List[int]]) -> None:
         """
         Do not return anything, modify matrix in-place instead.
@@ -31,7 +31,7 @@ matrix2 = [[5,1,9,11],
           [13,3,6,7],
           [15,14,12,16]]
 
-solution = Solution()
+solution = Solution48()
 solution.rotate(matrix)
 solution.rotate(matrix2)
 

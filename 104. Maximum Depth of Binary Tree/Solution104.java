@@ -1,7 +1,7 @@
 import java.util.Queue;
 import java.util.LinkedList;
 
-public class Solution {
+public class Solution104 {
 
     public static void main(String[] args) {
 
@@ -16,7 +16,7 @@ public class Solution {
     }
 
     public static void entradas(String input) {
-        Solution solution = new Solution();
+        Solution104 solution = new Solution104();
         TreeNode root = createTree(input);
 
         int maxDepth = solution.maxDepth(root);
