@@ -1,4 +1,4 @@
-from typing import Optional, List
+from typing import Optional, List, Union
 import json
 
 class TreeNode:
@@ -24,9 +24,12 @@ class Solution:
         
         return res  
 
-def create_tree(nodes: List[Optional[int]]) -> Optional[TreeNode]:
+def create_tree(nodes: List[Union[int, None]]) -> Optional[TreeNode]:
     if not nodes:
         return None
+    for i in range(len(nodes)):
+        if nodes[i] == "null":
+            nodes[i] = None
     root = TreeNode(nodes[0])
     queue = [root]
     i = 1
@@ -43,15 +46,24 @@ def create_tree(nodes: List[Optional[int]]) -> Optional[TreeNode]:
             i += 1
     return root
 
-def main():
-    # Solicitar ao usuário que insira os valores dos nós da árvore
-    input_str = input("Input:")
-    nodes = json.loads(input_str) if input_str else []
+def entrada(nodes): 
     root = create_tree(nodes)
-    
-    # Chamada e saída
     solution = Solution()
+    print("Input: root = ", nodes)
     print("Output:", solution.inorderTraversal(root))
 
+def main():
+    nodes = [1, "null", 2, 3] 
+    entrada(nodes)
+    print()
+
+    nodes = [] 
+    entrada(nodes)
+    print()
+
+    nodes = [1] 
+    entrada(nodes)
+
+   
 if __name__ == "__main__":
     main()

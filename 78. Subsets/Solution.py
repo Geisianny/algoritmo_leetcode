@@ -10,10 +10,17 @@ class Solution:
             lst.extend([list(comb) for comb in ans])
         return lst
 
-if __name__ == "__main__":
+def entrada(nums):
     solution = Solution()
-    nums_input = input("Enter numbers in the format [1,2,3]: ")
-    nums = ast.literal_eval(nums_input)
     result = solution.subsets(nums)
     print("Input:", nums)
     print("Output:", result)
+
+
+if __name__ == "__main__":
+    nums = [1,2,3]
+    entrada(nums)
+    print()
+    
+    nums = [0]
+    entrada(nums)
