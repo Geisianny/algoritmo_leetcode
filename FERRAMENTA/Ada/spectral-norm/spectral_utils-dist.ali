@@ -1,0 +1,187 @@
+V "GNAT Lib v9"
+A -O3
+A -fomit-frame-pointer
+A -mfpmath=sse
+A -gnatN
+A -gnatp
+A -march=sandybridge
+A -mmmx
+A -mno-3dnow
+A -msse
+A -msse2
+A -msse3
+A -mssse3
+A -mno-sse4a
+A -mcx16
+A -msahf
+A -mno-movbe
+A -mno-aes
+A -mno-sha
+A -mpclmul
+A -mpopcnt
+A -mno-abm
+A -mno-lwp
+A -mno-fma
+A -mno-fma4
+A -mno-xop
+A -mno-bmi
+A -mno-sgx
+A -mno-bmi2
+A -mno-pconfig
+A -mno-wbnoinvd
+A -mno-tbm
+A -mavx
+A -mno-avx2
+A -msse4.2
+A -msse4.1
+A -mno-lzcnt
+A -mno-rtm
+A -mno-hle
+A -mno-rdrnd
+A -mno-f16c
+A -mno-fsgsbase
+A -mno-rdseed
+A -mno-prfchw
+A -mno-adx
+A -mfxsr
+A -mxsave
+A -mxsaveopt
+A -mno-avx512f
+A -mno-avx512er
+A -mno-avx512cd
+A -mno-avx512pf
+A -mno-prefetchwt1
+A -mno-clflushopt
+A -mno-xsavec
+A -mno-xsaves
+A -mno-avx512dq
+A -mno-avx512bw
+A -mno-avx512vl
+A -mno-avx512ifma
+A -mno-avx512vbmi
+A -mno-avx5124fmaps
+A -mno-avx5124vnniw
+A -mno-clwb
+A -mno-mwaitx
+A -mno-clzero
+A -mno-pku
+A -mno-rdpid
+A -mno-gfni
+A -mno-shstk
+A -mno-avx512vbmi2
+A -mno-avx512vnni
+A -mno-vaes
+A -mno-vpclmulqdq
+A -mno-avx512bitalg
+A -mno-avx512vpopcntdq
+A -mno-movdiri
+A -mno-movdir64b
+A -mno-waitpkg
+A -mno-cldemote
+A -mno-ptwrite
+A -mtune=sandybridge
+P ZX
+
+RN
+RV NO_DISPATCH
+RV NO_DISPATCHING_CALLS
+RV NO_SELECT_STATEMENTS
+RV NO_TASKING
+RV NO_TERMINATE_ALTERNATIVES
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+RV MAX_SELECT_ALTERNATIVES=2
+RV MAX_TASK_ENTRIES=2
+
+U spectral_utils.dist%b	spectral_utils-dist.adb	ee3ade72 NE OO PK GE
+W spectral_utils%s	spectral_utils.adb	spectral_utils.ali
+
+U spectral_utils.dist%s	spectral_utils-dist.ads	85294567 BN EB NE OO PK GE
+W spectral_utils%s	spectral_utils.adb	spectral_utils.ali
+
+D division.ads		20231219131110 c84b345f division%s 489:spectralnorm.gnat-4.gnat
+D spectral_utils.ads	20231219131110 381ffe87 spectral_utils%s 56:spectralnorm.gnat-4.gnat
+D spectral_utils-dist.ads  20231219131110 bd36bbe0 spectral_utils.dist%s 332:spectralnorm.gnat-4.gnat
+D spectral_utils-dist.adb  20231219131110 530c6592 spectral_utils.dist%b 368:spectralnorm.gnat-4.gnat
+D system.ads		20210601075304 4635ec04 system%s
+X 1 spectralnorm.gnat-4.gnat
+494F9*SSE_Real<long_float>
+X 2 spectralnorm.gnat-4.gnat
+62k9*Spectral_Utils 94e19 3|335r9 367r5 4|369r14 488r5
+64F12*Real{1|494F9}
+66M9*Matrix_Index 3|349r27 349r43 355r57 356r41 363r57 364r41 4|374r26 386r33
+. 388r24 392r13 400r16 416r13 422r16 436r16 442r60 450r44 462r16 468r60 477r44
+68m4*Matrix_Size{66M9} 4|386r49
+70A9*Matrix(64F12)<66M9> 3|345r38 346r38 355r30 356r63 363r30 364r63 4|381r39
+. 382r39 384r28 437r21 442r33 450r66 463r21 468r33 477r66
+73C9*Matrix_Computation<73R9>
+73H9*Matrix_Computation 73e66 3|344r38 4|380r39 438r29 464r29
+75V13*Make_Calculator{73C9} 4|438s57 464s57
+80x14*Eval_A_Times 4|403R12 448R20
+88x14*Eval_At_Times 4|425R12 474R20
+X 3 spectralnorm.gnat-4.gnat
+334i4 Number_Of_Tasks{positive} 349r57
+335k24 Dist 2|62k9 3|334z4 339r27 349E4 367l20 367e24 4|369b29 488l20 488t24
+343U14*Eval_Ata_Times_U 344>7 345>7 346<7 4|379b14 433l8 433t24
+344c7 Iron<2|73R9> 4|380b8 403r7 425r7
+345a7 U{2|70A9} 4|381b8 397r48 403r26
+346a7 A_transpose_A_times_U{2|70A9} 4|382b8 425m42 430m10
+349m4 No_of_Tasks{2|66M9} 4|374r50 386r63
+353T14 Matrix_A_times_U 357l8 357e24 4|376r56 435b14 459l8 459t24
+355Y13 Multiply 355>23 355>38 355>45 4|397s38 442b16 446l13 446t21
+355a23 U{2|70A9} 4|445r23
+355m38 Start{2|66M9} 4|443r18
+355m45 Finish{2|66M9} 4|444r18
+356Y13 Result 356<21 356<28 356<55 4|408s38 450b16 454l13 454t19
+356m21 Start{2|66M9} 4|451m12 453r14 453r37
+356m28 Finish{2|66M9} 4|452m12 453r23 453r46
+356a55 R{2|70A9} 4|453m12
+361T14 Matrix_A_tr_times_V 365l8 365e27 4|377r56 461b14 486l8 486t27
+363Y13 Multiply 363>23 363>38 363>45 4|419s41 468b16 472l13 472t21
+363a23 V{2|70A9} 4|471r23
+363m38 Start{2|66M9} 4|469r18
+363m45 Finish{2|66M9} 4|470r18
+364Y13 Result 364<21 364<28 364<55 4|429s41 477b16 481l13 481t19
+364m21 Start{2|66M9} 4|478m12 480r14 480r37
+364m28 Finish{2|66M9} 4|479m12 480r23 480r46
+364a55 R{2|70A9} 4|480m12
+X 4 spectralnorm.gnat-4.gnat
+374M12 Task_Range{2|66M9} 376r41 377r41 396r16 407r16 418r16 428r16
+376a4 Partial_Matrix_A_times_U(3|353T14) 397r10 408r10
+377a4 Partial_Matrix_A_tr_times_V(3|361T14) 419r10 429r10
+384a7 V{2|70A9} 390r13 391r13 392r35 400r38 403r33 403m41 409m10 414r13 415r13
+. 416r35 419r51 422r38 425r27 425r34
+384a10 Partial_Product{2|70A9} 408m54 409r25 429m57 430r45
+386m7 Segment_Length{2|66M9} 391r23 399r21 415r23 421r21
+388m7 I1{2|66M9} 390m7 397r51 398m10 403r29 414m7 419r54 420m10 425r30
+388m11 I2{2|66M9} 391m7 392m7 392r31 397r55 398r16 399m10 399r16 400m10 400r34
+. 415m7 416m7 416r31 419r58 420r16 421m10 421r16 422m10 422r34
+388m15 J1{2|66M9} 408m46 409r12 409r41 429m49 430r32 430r61
+388m19 J2{2|66M9} 408m50 409r18 409r47 429m53 430r38 430r67
+396m11 k{374M12} 397r35
+407m11 k{374M12} 408r35
+418m11 k{374M12} 419r38
+428m11 k{374M12} 429r38
+436m7 I1{2|66M9} 443m12 448r43 451r22
+436m11 I2{2|66M9} 444m12 448r47 452r22
+437a7 AU{2|70A9} 448m51 453r34
+437a11 U_local{2|70A9} 445m12 448r34
+438c7 Calculator<2|73R9> 448r9
+442a26 U{2|70A9}
+442m41 Start{2|66M9}
+442m48 Finish{2|66M9}
+450m24 Start{2|66M9}
+450m31 Finish{2|66M9}
+450a58 R{2|70A9}
+462m7 I1{2|66M9} 469m12 474r44 478r22
+462m11 I2{2|66M9} 470m12 474r48 479r22
+463a7 AV{2|70A9} 474m52 480r34
+463a11 V_local{2|70A9} 471m12 474r35
+464c7 Calculator<2|73R9> 474r9
+468a26 V{2|70A9}
+468m41 Start{2|66M9}
+468m48 Finish{2|66M9}
+477m24 Start{2|66M9}
+477m31 Finish{2|66M9}
+477a58 R{2|70A9}
+

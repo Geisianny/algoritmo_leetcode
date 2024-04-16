@@ -1,0 +1,131 @@
+V "GNAT Lib v9"
+A -O3
+A -fomit-frame-pointer
+A -mfpmath=sse
+A -gnatN
+A -gnatp
+A -march=sandybridge
+A -mmmx
+A -mno-3dnow
+A -msse
+A -msse2
+A -msse3
+A -mssse3
+A -mno-sse4a
+A -mcx16
+A -msahf
+A -mno-movbe
+A -mno-aes
+A -mno-sha
+A -mpclmul
+A -mpopcnt
+A -mno-abm
+A -mno-lwp
+A -mno-fma
+A -mno-fma4
+A -mno-xop
+A -mno-bmi
+A -mno-sgx
+A -mno-bmi2
+A -mno-pconfig
+A -mno-wbnoinvd
+A -mno-tbm
+A -mavx
+A -mno-avx2
+A -msse4.2
+A -msse4.1
+A -mno-lzcnt
+A -mno-rtm
+A -mno-hle
+A -mno-rdrnd
+A -mno-f16c
+A -mno-fsgsbase
+A -mno-rdseed
+A -mno-prfchw
+A -mno-adx
+A -mfxsr
+A -mxsave
+A -mxsaveopt
+A -mno-avx512f
+A -mno-avx512er
+A -mno-avx512cd
+A -mno-avx512pf
+A -mno-prefetchwt1
+A -mno-clflushopt
+A -mno-xsavec
+A -mno-xsaves
+A -mno-avx512dq
+A -mno-avx512bw
+A -mno-avx512vl
+A -mno-avx512ifma
+A -mno-avx512vbmi
+A -mno-avx5124fmaps
+A -mno-avx5124vnniw
+A -mno-clwb
+A -mno-mwaitx
+A -mno-clzero
+A -mno-pku
+A -mno-rdpid
+A -mno-gfni
+A -mno-shstk
+A -mno-avx512vbmi2
+A -mno-avx512vnni
+A -mno-vaes
+A -mno-vpclmulqdq
+A -mno-avx512bitalg
+A -mno-avx512vpopcntdq
+A -mno-movdiri
+A -mno-movdir64b
+A -mno-waitpkg
+A -mno-cldemote
+A -mno-ptwrite
+A -mtune=sandybridge
+P ZX
+
+RN
+RV NO_FLOATING_POINT
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U systems%b		systems.adb		d3b73564 NE OO PK
+
+U systems%s		systems.ads		4bf88a49 BN EE NE OO PK
+W root%s		root.adb		root.ali
+
+D root.ads		20231219131108 257dbcbf root%s 259:nbody.gnat-2.gnat
+D root.adb		20231219131108 6376fea3 root%b 331:nbody.gnat-2.gnat
+D system.ads		20210601075304 4635ec04 system%s
+D systems.ads		20231219131108 6e8536f6 systems%s 182:nbody.gnat-2.gnat
+D systems.adb		20231219131108 bd320392 systems%b 245:nbody.gnat-2.gnat
+X 1 nbody.gnat-2.gnat
+263K9*Root 330e9 4|186w6 186r16
+268F9*S_Real<long_float> 4|191r16 192r15 193r19 194r13 197r17 198r25 199r28
+. 241r63 5|251r63
+X 4 nbody.gnat-2.gnat
+187K9*Systems 244l5 244e12 5|249b14 258l5 258t12
+190R9*System 195e14 201r13 210r12 219r12 228r13 237r9 241r44 5|251r44
+191f7*X{1|268F9} 202m7 211m7 220m7 229m7
+191f10*Y{1|268F9} 203m7 212m7 221m7 230m7
+191f13*Z{1|268F9} 204m7 213m7 222m7 231m7
+192f7*Filler{1|268F9}
+193f7*VX{1|268F9} 205m7 214m7 223m7 232m7 5|253m12
+193f11*VY{1|268F9} 206m7 215m7 224m7 233m7 5|254m12
+193f15*VZ{1|268F9} 207m7 216m7 225m7 234m7 5|255m12
+194f7*Mass{1|268F9} 208m7 217m7 226m7 235m7 238m7
+197f4*PI{1|268F9} 198r41 198r46
+198f4*SOLAR_MASS{1|268F9} 208r41 217r41 226r41 235r41 238r15 5|253r24 254r24
+. 255r24
+199f4*DAYS_PER_YEAR{1|268F9} 205r39 206r39 207r40 214r40 215r39 216r39 223r39
+. 224r39 225r40 232r39 233r39 234r40
+201r4*Jupiter{190R9}
+210r4*Saturn{190R9}
+219r4*Uranus{190R9}
+228r4*Neptune{190R9}
+237r4*Sun{190R9}
+241U14*Offset_Momentum 241=31 241>52 241>55 241>59 242r18 5|251b14 256l8
+. 256t23
+241r31 This{190R9} 5|251b31 253m7 254m7 255m7
+241f52 PX{1|268F9} 5|251b52 253r19
+241f55 PY{1|268F9} 5|251b55 254r19
+241f59 PZ{1|268F9} 5|251b59 255r19
+

@@ -1,0 +1,166 @@
+V "GNAT Lib v9"
+A -O3
+A -fomit-frame-pointer
+A -mfpmath=sse
+A -gnatN
+A -gnatp
+A -march=sandybridge
+A -mmmx
+A -mno-3dnow
+A -msse
+A -msse2
+A -msse3
+A -mssse3
+A -mno-sse4a
+A -mcx16
+A -msahf
+A -mno-movbe
+A -mno-aes
+A -mno-sha
+A -mpclmul
+A -mpopcnt
+A -mno-abm
+A -mno-lwp
+A -mno-fma
+A -mno-fma4
+A -mno-xop
+A -mno-bmi
+A -mno-sgx
+A -mno-bmi2
+A -mno-pconfig
+A -mno-wbnoinvd
+A -mno-tbm
+A -mavx
+A -mno-avx2
+A -msse4.2
+A -msse4.1
+A -mno-lzcnt
+A -mno-rtm
+A -mno-hle
+A -mno-rdrnd
+A -mno-f16c
+A -mno-fsgsbase
+A -mno-rdseed
+A -mno-prfchw
+A -mno-adx
+A -mfxsr
+A -mxsave
+A -mxsaveopt
+A -mno-avx512f
+A -mno-avx512er
+A -mno-avx512cd
+A -mno-avx512pf
+A -mno-prefetchwt1
+A -mno-clflushopt
+A -mno-xsavec
+A -mno-xsaves
+A -mno-avx512dq
+A -mno-avx512bw
+A -mno-avx512vl
+A -mno-avx512ifma
+A -mno-avx512vbmi
+A -mno-avx5124fmaps
+A -mno-avx5124vnniw
+A -mno-clwb
+A -mno-mwaitx
+A -mno-clzero
+A -mno-pku
+A -mno-rdpid
+A -mno-gfni
+A -mno-shstk
+A -mno-avx512vbmi2
+A -mno-avx512vnni
+A -mno-vaes
+A -mno-vpclmulqdq
+A -mno-avx512bitalg
+A -mno-avx512vpopcntdq
+A -mno-movdiri
+A -mno-movdir64b
+A -mno-waitpkg
+A -mno-cldemote
+A -mno-ptwrite
+A -mtune=sandybridge
+P ZX
+
+RN
+RV NO_FLOATING_POINT
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U spectral_utils.s%b	spectral_utils-s.adb	c5e67fe1 NE OO PK GE
+W division%s		division.ads		division.ali
+W division.s%s		division-s.ads		division-s.ali
+W spectral_utils%s	spectral_utils.adb	spectral_utils.ali
+
+U spectral_utils.s%s	spectral_utils-s.ads	33bf54ad BN EE NE OO PK GE
+W spectral_utils%s	spectral_utils.adb	spectral_utils.ali
+
+D division.ads		20231219131110 c84b345f division%s 489:spectralnorm.gnat-4.gnat
+D division-s.ads	20231219131110 417d0c86 division.s%s 499:spectralnorm.gnat-4.gnat
+D spectral_utils.ads	20231219131110 381ffe87 spectral_utils%s 56:spectralnorm.gnat-4.gnat
+D spectral_utils-s.ads	20231219131110 0ba0aa2a spectral_utils.s%s 219:spectralnorm.gnat-4.gnat
+D spectral_utils-s.adb	20231219131110 8f3bd94d spectral_utils.s%b 240:spectralnorm.gnat-4.gnat
+D system.ads		20210601075304 4635ec04 system%s
+X 1 spectralnorm.gnat-4.gnat
+490K9*Division 498e13 5|241r6 245r8
+494F9*SSE_Real<long_float>
+X 2 spectralnorm.gnat-4.gnat
+501K18*S 518e15 5|241w15 245r17
+505A9*SSE_Vector(1|494F9)<integer> 5|247r30 283r69 284r14 311r69 312r14
+510V14*"+"{505A9} 5|294s26 322s26
+511V14*"*"{505A9} 5|294s40 322s40
+512V14*"/"{505A9} 5|262s25 270s25
+X 3 spectralnorm.gnat-4.gnat
+62k9*Spectral_Utils 94e19 4|220r17 239r5 5|242r14 331r5
+64F12*Real{1|494F9} 5|244r13 251r52 252r24 252r32 259r10 260r10 267r10 268r10
+66M9*Matrix_Index 4|229r30 236r30 5|251r31 257r40 265r37 273r32 279r30 282r17
+. 283r25 288r19 292r19 307r30 310r17 311r25 316r19 320r19
+68m4*Matrix_Size{66M9} 5|273r48 283r49 296r13 311r49 324r13
+70A9*Matrix(64F12)<66M9> 4|228r30 230r30 235r30 237r30 5|278r30 280r30 306r30
+. 308r30
+73H9*Matrix_Computation 73e66 4|222r23
+X 4 spectralnorm.gnat-4.gnat
+220k32 S 3|62k9 4|239l20 239e21 5|242b29 331l20 331t21
+222R9*Forced<3|73R9> 222e58 226P14 227r30 233P14 234r30 5|277r30 305r30
+226U14*Eval_A_Times<3|80p14> 227>7 228>7 229>7 229>14 230<7 5|276b14 301l8
+. 301t20
+227r7 Iron{222R9} 5|277b7
+228a7 U{3|70A9} 5|278b7 289r29 293r29 294r43 294r55 297r44 297r54 297r56
+229m7 Start{3|66M9} 5|279b7 286r16
+229m14 Finish{3|66M9} 5|279b14 286r25
+230a7 AU{3|70A9} 5|280b7 299m10
+233U14*Eval_At_Times<3|88p14> 234>7 235>7 236>7 236>14 237<7 5|304b14 329l8
+. 329t21
+234r7 Iron{222R9} 5|305b7
+235a7 U{3|70A9} 5|306b7 317r28 321r28 322r43 322r55 325r42 325r55 325r57
+236m7 Start{3|66M9} 5|307b7 314r16
+236m14 Finish{3|66M9} 5|307b14 314r25
+237a7 AU{3|70A9} 5|308b7 327m10
+X 5 spectralnorm.gnat-4.gnat
+247A12 A_Element_Pair{2|505A9}<integer> 257r61 258r25 265r58 266r25
+251V13 Eval_A{3|64F12} 251b13 251>21 251>24 255l8 255t14 297s34 325s34
+251m21 I{3|66M9} 252r40 252r50 252r68
+251m24 J{3|66M9} 252r44 252r54
+252f7 Denom{3|64F12} 254r20
+257V13 Eval_A_tr_Twice{247A12} 257b13 257>30 257>33 263l8 263t23 318s28
+257m30 I{3|66M9} 259r18 259r30 260r18 260r30
+257m33 J{3|66M9} 259r22 259r34 259r46 260r22 260r34 260r46
+258a7 Denoms{247A12} 262r27
+265V13 Eval_A_Twice{247A12} 265b13 265>27 265>30 271l8 271t20 290s29
+265m27 I{3|66M9} 267r18 267r30 267r46 268r18 268r30 268r46
+265m30 J{3|66M9} 267r22 267r34 268r22 268r34
+266a7 Denoms{247A12} 270r27
+273m4 Half_Matrix_Size{3|66M9} 288r43 292r43 316r43 320r43
+282m7 J_Index{3|66M9} 289m13 290r46 293m13 294r45 294r57
+283a7 Elements(2|505A9) 290m13 294r28
+284a7 Sums{2|505A9} 287m10 294m13 294r21 297m13 297r24 299r19 299r29
+286m11 I{3|66M9} 290r43 297r41 299r13
+288m14 J{3|66M9} 289r41 290r23
+292m14 J{3|66M9} 293r41 294r37
+310m7 J_Index{3|66M9} 317m13 318r48 321m13 322r45 322r57
+311a7 Elements(2|505A9) 318m13 322r28
+312a7 Sums{2|505A9} 315m10 322m13 322r21 325m13 325r24 327r19 327r29
+314m11 I{3|66M9} 318r45 325r50 327r13
+316m14 J{3|66M9} 317r40 318r22
+320m14 J{3|66M9} 321r40 322r37
+

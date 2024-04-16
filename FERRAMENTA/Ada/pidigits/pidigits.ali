@@ -1,0 +1,202 @@
+V "GNAT Lib v9"
+M P W=b
+A -O3
+A -fomit-frame-pointer
+A -mfpmath=sse
+A -gnatN
+A -gnatp
+A -march=sandybridge
+A -mmmx
+A -mno-3dnow
+A -msse
+A -msse2
+A -msse3
+A -mssse3
+A -mno-sse4a
+A -mcx16
+A -msahf
+A -mno-movbe
+A -mno-aes
+A -mno-sha
+A -mpclmul
+A -mpopcnt
+A -mno-abm
+A -mno-lwp
+A -mno-fma
+A -mno-fma4
+A -mno-xop
+A -mno-bmi
+A -mno-sgx
+A -mno-bmi2
+A -mno-pconfig
+A -mno-wbnoinvd
+A -mno-tbm
+A -mavx
+A -mno-avx2
+A -msse4.2
+A -msse4.1
+A -mno-lzcnt
+A -mno-rtm
+A -mno-hle
+A -mno-rdrnd
+A -mno-f16c
+A -mno-fsgsbase
+A -mno-rdseed
+A -mno-prfchw
+A -mno-adx
+A -mfxsr
+A -mxsave
+A -mxsaveopt
+A -mno-avx512f
+A -mno-avx512er
+A -mno-avx512cd
+A -mno-avx512pf
+A -mno-prefetchwt1
+A -mno-clflushopt
+A -mno-xsavec
+A -mno-xsaves
+A -mno-avx512dq
+A -mno-avx512bw
+A -mno-avx512vl
+A -mno-avx512ifma
+A -mno-avx512vbmi
+A -mno-avx5124fmaps
+A -mno-avx5124vnniw
+A -mno-clwb
+A -mno-mwaitx
+A -mno-clzero
+A -mno-pku
+A -mno-rdpid
+A -mno-gfni
+A -mno-shstk
+A -mno-avx512vbmi2
+A -mno-avx512vnni
+A -mno-vaes
+A -mno-vpclmulqdq
+A -mno-avx512bitalg
+A -mno-avx512vpopcntdq
+A -mno-movdiri
+A -mno-movdir64b
+A -mno-waitpkg
+A -mno-cldemote
+A -mno-ptwrite
+A -mtune=sandybridge
+P SS ZX
+
+RN
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_OBSOLESCENT_FEATURES
+RV SPARK_05
+
+U pidigits%b		pidigits.adb		d9f22acd NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.command_line%s	a-comlin.adb		a-comlin.ali
+W interfaces%s		interfac.ads		interfac.ali
+W interfaces.c%s	i-c.adb			i-c.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+Z system.unsigned_types%s  s-unstyp.ads		s-unstyp.ali
+Z system.val_uns%s	s-valuns.adb		s-valuns.ali
+L "-lgmp"
+
+D ada.ads		20210601075304 76789da1 ada%s
+D a-comlin.ads		20210601075304 4aa66568 ada.command_line%s
+D a-unccon.ads		20210601075304 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20210601075304 5ab55268 interfaces%s
+D i-c.ads		20210601075304 5421119b interfaces.c%s
+D pidigits.adb		20231219131106 c7755e3e pidigits%b 1:pidigits.gnat-2.gnat
+D system.ads		20210601075304 4635ec04 system%s
+D s-exctab.ads		20210601075304 54135002 system.exception_table%s
+D s-parame.ads		20210601075304 48ec542b system.parameters%s
+D s-secsta.ads		20210601075304 20bbe636 system.secondary_stack%s
+D s-stalib.ads		20210601075304 09bd3940 system.standard_library%s
+D s-stoele.ads		20210601075304 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20210601075304 ed88f8fb system.storage_elements%b
+D s-unstyp.ads		20210601075304 34867c83 system.unsigned_types%s
+D s-valuns.ads		20210601075304 10a8ed3b system.val_uns%s
+X 1 ada.ads
+16K9*Ada 20e8 6|10r6 10r31
+X 2 a-comlin.ads
+36K13*Command_Line 144e21 6|10w10 10r35
+39V13*Argument_Count{natural} 6|104s6
+52V13*Argument{string} 6|105s38
+X 4 interfac.ads
+38K9*Interfaces 184e15 6|12r6 21r27 25r27 32r57 35r69 41r72 44r72 50r48 53r60
+. 56r34 59r55 69r23 69r58 70r23 70r58 75r12 78r31 79r31 86r29 87r29 88r9
+. 100r7 105r10 116r9 117r15
+X 5 i-c.ads
+18K20*C 230e17 6|12w17 21r38 25r38 32r68 35r80 41r83 44r83 50r59 53r71 56r45
+. 59r66 69r34 69r69 70r34 70r69 75r23 78r42 79r42 86r40 87r40 88r20 100r18
+. 105r21 116r20 117r26
+35I9*int<integer> 6|25r40 53r73
+43M9*unsigned 6|21r40 41r85 44r85 56r47 59r68 69r71 70r71 75r25 78r44 79r44
+. 86r42 87r42 89r10 100r20 105r23 117r28
+45M9*unsigned_long 6|32r70 35r82 50r61 69r36 70r36 94r26 95r26 96r26
+X 6 pidigits.gnat-2.gnat
+14U11*Pidigits 14b11 143l5 143t13
+18K11 GMP_Mini 64l7 64e15 65r7
+19a9 Print_String{string} 136r18
+21M10 mp_limb_t<5|43M9> 22r27
+22P10 mp_ptr(21M10) 26r17
+24R10 mpz_t 27e15 29r35 32r42 35r37 35r53 38r34 38r56 41r40 41r56 44r40 44r56
+. 47r37 47r59 50r34 53r31 53r46 67r31
+25i7 mp_alloc{5|35I9}
+25i17 mp_size{5|35I9}
+26p7 mp_d{22P10}
+29U15*mpz_init 29<25 30b<c,__gmpz_init>22 108s3 109s3
+29r25 Dest{24R10}
+32U15*mpz_init_set_ui 32<32 32>49 33b<c,__gmpz_init_set_ui>22 111s3 112s3
+. 113s3
+32r32 Dest{24R10}
+32m49 Src{5|45M9}
+35U15*mpz_mul_ui 35<27 35>44 35>60 36b<c,__gmpz_mul_ui>22 72s5 82s5 83s5
+. 94s5 95s5 96s5
+35r27 Dest{24R10}
+35r44 Src1{24R10}
+35m60 Src2{5|45M9}
+38U15*mpz_add 38<24 38>41 38>47 39b<c,__gmpz_add>22 73s5
+38r24 Dest{24R10}
+38r41 Src1{24R10}
+38r47 Src2{24R10}
+41U15*mpz_addmul_ui 41<30 41>47 41>63 42b<c,__gmpz_addmul_ui>22 93s5
+41r30 Dest{24R10}
+41r47 Src1{24R10}
+41m63 Src2{5|43M9}
+44U15*mpz_submul_ui 44<30 44>47 44>63 45b<c,__gmpz_submul_ui>22 81s5
+44r30 Dest{24R10}
+44r47 Src1{24R10}
+44m63 Src2{5|43M9}
+47U15*mpz_tdiv_q 47<27 47>44 47>50 48b<c,__gmpz_tdiv_q>22 74s5
+47r27 Dest{24R10}
+47r44 Src1{24R10}
+47r50 Src2{24R10}
+50V14*mpz_get_ui{5|45M9} 50>26 51b<c,__gmpz_get_ui>22 75s34
+50r26 Src{24R10}
+53V14*mpz_cmp{5|35I9} 53>23 53>38 54b<c,__gmpz_cmp>22 124s10
+53r23 Src{24R10}
+53r38 Ref{24R10}
+56U15*Put_Char 56>25 57b<c,putchar>22 133s7
+56m25 Val{5|43M9}
+59U15*Put_Line 59>25 59>45 60b<c,printf>22 136s9
+59a25 Format{string}
+59m45 Data{5|43M9}
+67r3 Tmp1{24R10} 72m16 73r19 74m16 75r45 108m12
+67r9 Tmp2{24R10} 73m13 74r22 109m12
+67r15 Acc{24R10} 73r25 81m19 82m16 82r21 93m19 94m16 94r21 111m19 124r23
+67r20 Den{24R10} 74r28 81r24 95m16 95r21 112m19
+67r25 Num{24R10} 72r22 83m16 83r21 93r24 96m16 96r21 113m19 124r18
+69V12 Extract{5|43M9} 69>20 70b12 76l7 76t14 128s12 129s15
+69m20 X{5|45M9} 70b20 72r27
+78U13 Eliminate 78>24 79b13 84l7 84t16 138s7
+78m24 D{5|43M9} 79b24 81r29
+86U13 Consume 86>22 87b13 97l7 97t14 122s7
+86m22 K{5|43M9} 87b22 91r11 96r40
+89m5 K2{5|43M9} 91m5 94r40 95r40
+100m3 N{5|43M9} 103m3 105m5 120r15
+117m5 D{5|43M9} 128m7 129r10 133r16 138r17
+117m8 K{5|43M9} 121m7 121r12 122r15
+117m11 I{5|43M9} 120r11 134m7 134r12 135r10 136r32
+119L7 Work_Loop 125r14 130r14
+

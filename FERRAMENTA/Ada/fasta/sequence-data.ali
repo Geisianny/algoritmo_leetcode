@@ -1,0 +1,104 @@
+V "GNAT Lib v9"
+A -O3
+A -fomit-frame-pointer
+A -mfpmath=sse
+A -gnatN
+A -gnatp
+A -march=sandybridge
+A -mmmx
+A -mno-3dnow
+A -msse
+A -msse2
+A -msse3
+A -mssse3
+A -mno-sse4a
+A -mcx16
+A -msahf
+A -mno-movbe
+A -mno-aes
+A -mno-sha
+A -mpclmul
+A -mpopcnt
+A -mno-abm
+A -mno-lwp
+A -mno-fma
+A -mno-fma4
+A -mno-xop
+A -mno-bmi
+A -mno-sgx
+A -mno-bmi2
+A -mno-pconfig
+A -mno-wbnoinvd
+A -mno-tbm
+A -mavx
+A -mno-avx2
+A -msse4.2
+A -msse4.1
+A -mno-lzcnt
+A -mno-rtm
+A -mno-hle
+A -mno-rdrnd
+A -mno-f16c
+A -mno-fsgsbase
+A -mno-rdseed
+A -mno-prfchw
+A -mno-adx
+A -mfxsr
+A -mxsave
+A -mxsaveopt
+A -mno-avx512f
+A -mno-avx512er
+A -mno-avx512cd
+A -mno-avx512pf
+A -mno-prefetchwt1
+A -mno-clflushopt
+A -mno-xsavec
+A -mno-xsaves
+A -mno-avx512dq
+A -mno-avx512bw
+A -mno-avx512vl
+A -mno-avx512ifma
+A -mno-avx512vbmi
+A -mno-avx5124fmaps
+A -mno-avx5124vnniw
+A -mno-clwb
+A -mno-mwaitx
+A -mno-clzero
+A -mno-pku
+A -mno-rdpid
+A -mno-gfni
+A -mno-shstk
+A -mno-avx512vbmi2
+A -mno-avx512vnni
+A -mno-vaes
+A -mno-vpclmulqdq
+A -mno-avx512bitalg
+A -mno-avx512vpopcntdq
+A -mno-movdiri
+A -mno-movdir64b
+A -mno-waitpkg
+A -mno-cldemote
+A -mno-ptwrite
+A -mtune=sandybridge
+P ZX
+
+RN
+RV NO_FLOATING_POINT
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U sequence.data%s	sequence-data.ads	961f6067 NE OO PU PK
+W sequence%s		sequence.ads		sequence.ali
+
+D sequence.ads		20231219131109 621efd95 sequence%s 80:fasta.gnat-5.gnat
+D sequence-data.ads	20231219131109 f4019df2 sequence.data%s 27:fasta.gnat-5.gnat
+D system.ads		20210601075304 4635ec04 system%s
+X 1 fasta.gnat-5.gnat
+81K9*Sequence 98e13 2|28r9 51r5
+96A9*Nucleotide_Set(87R9)<integer> 2|32r27 36r19
+X 2 fasta.gnat-5.gnat
+28K18*Data 1|81k9 2|30r17 51l14 51e18
+32a4*Homosapiens{1|96A9}
+36a4*IUB{1|96A9}
+42a4*ALU{string}
+

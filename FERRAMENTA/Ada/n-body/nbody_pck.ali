@@ -1,0 +1,223 @@
+V "GNAT Lib v9"
+A -O3
+A -fomit-frame-pointer
+A -mfpmath=sse
+A -gnatN
+A -gnatp
+A -march=sandybridge
+A -mmmx
+A -mno-3dnow
+A -msse
+A -msse2
+A -msse3
+A -mssse3
+A -mno-sse4a
+A -mcx16
+A -msahf
+A -mno-movbe
+A -mno-aes
+A -mno-sha
+A -mpclmul
+A -mpopcnt
+A -mno-abm
+A -mno-lwp
+A -mno-fma
+A -mno-fma4
+A -mno-xop
+A -mno-bmi
+A -mno-sgx
+A -mno-bmi2
+A -mno-pconfig
+A -mno-wbnoinvd
+A -mno-tbm
+A -mavx
+A -mno-avx2
+A -msse4.2
+A -msse4.1
+A -mno-lzcnt
+A -mno-rtm
+A -mno-hle
+A -mno-rdrnd
+A -mno-f16c
+A -mno-fsgsbase
+A -mno-rdseed
+A -mno-prfchw
+A -mno-adx
+A -mfxsr
+A -mxsave
+A -mxsaveopt
+A -mno-avx512f
+A -mno-avx512er
+A -mno-avx512cd
+A -mno-avx512pf
+A -mno-prefetchwt1
+A -mno-clflushopt
+A -mno-xsavec
+A -mno-xsaves
+A -mno-avx512dq
+A -mno-avx512bw
+A -mno-avx512vl
+A -mno-avx512ifma
+A -mno-avx512vbmi
+A -mno-avx5124fmaps
+A -mno-avx5124vnniw
+A -mno-clwb
+A -mno-mwaitx
+A -mno-clzero
+A -mno-pku
+A -mno-rdpid
+A -mno-gfni
+A -mno-shstk
+A -mno-avx512vbmi2
+A -mno-avx512vnni
+A -mno-vaes
+A -mno-vpclmulqdq
+A -mno-avx512bitalg
+A -mno-avx512vpopcntdq
+A -mno-movdiri
+A -mno-movdir64b
+A -mno-waitpkg
+A -mno-cldemote
+A -mno-ptwrite
+A -mtune=sandybridge
+P ZX
+
+RN
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U nbody_pck%b		nbody_pck.adb		2a828614 OO PK
+Z ada.tags%s		a-tags.adb		a-tags.ali
+Z systems%s		systems.adb		systems.ali  AD
+
+U nbody_pck%s		nbody_pck.ads		bb48e4c1 EB EE OO PK
+W ada%s			ada.ads			ada.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W root%s		root.adb		root.ali
+W systems%s		systems.adb		systems.ali
+
+D ada.ads		20210601075304 76789da1 ada%s
+D a-except.ads		20210601075304 291912d5 ada.exceptions%s
+D a-ioexce.ads		20210601075304 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20210601075304 119b8fb3 ada.streams%s
+D a-tags.ads		20210601075304 491b781d ada.tags%s
+D a-textio.ads		20210601075304 881db35a ada.text_io%s
+D a-unccon.ads		20210601075304 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20210601075304 5ab55268 interfaces%s
+D i-cstrea.ads		20210601075304 e53d8b8e interfaces.c_streams%s
+D i-cstrea.adb		20210601075304 98747b85 interfaces.c_streams%b
+D nbody_pck.ads		20231219131108 78adddd2 nbody_pck%s 38:nbody.gnat-2.gnat
+D nbody_pck.adb		20231219131108 522f5bc6 nbody_pck%b 65:nbody.gnat-2.gnat
+D root.ads		20231219131108 257dbcbf root%s 259:nbody.gnat-2.gnat
+D root.adb		20231219131108 6376fea3 root%b 331:nbody.gnat-2.gnat
+D system.ads		20210601075304 4635ec04 system%s
+D s-crtl.ads		20210601075304 0ebbdb71 system.crtl%s
+D s-exctab.ads		20210601075304 54135002 system.exception_table%s
+D s-ficobl.ads		20210601075304 078245e4 system.file_control_block%s
+D s-parame.ads		20210601075304 48ec542b system.parameters%s
+D s-secsta.ads		20210601075304 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20210601075304 a7318a92 system.soft_links%s
+D s-stache.ads		20210601075304 a37c21ec system.stack_checking%s
+D s-stalib.ads		20210601075304 09bd3940 system.standard_library%s
+D s-stoele.ads		20210601075304 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20210601075304 ed88f8fb system.storage_elements%b
+D s-traent.ads		20210601075304 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20210601075304 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20210601075304 1b7d22d2 system.wch_con%s
+D s-wchcon.adb		20210601075304 974e87c5 system.wch_con%b
+D systems.ads		20231219131108 6e8536f6 systems%s 182:nbody.gnat-2.gnat
+D systems.adb		20231219131108 bd320392 systems%b 245:nbody.gnat-2.gnat
+X 1 ada.ads
+16K9*Ada 20e8 11|43r6 43r28
+X 6 a-textio.ads
+49K13*Text_IO 471e16 11|43w10 43r32
+X 11 nbody.gnat-2.gnat
+45K9*Nbody_Pck 64l5 64e14 12|69b14 181l5 181t14
+49R9*R 51e14 52r8 53r42
+50f7*DX{13|268F9} 12|79m24 92r32 95r34 121r55 125r56
+50f11*DY{13|268F9} 12|80m24 93r32 96r34 122r55 126r56
+50f15*DZ{13|268F9} 12|81m24 94r32 97r34 123r55 127r55
+50f19*Filler{13|268F9}
+53A9*R_Array_Type(49R9)<integer> 12|73r17
+55A9*Mag_Type(13|268F9)<integer> 56r8 12|74r13
+58f4*PX{13|268F9} 12|170m4 175m7 175r13 179r39
+58f8*PY{13|268F9} 12|171m4 176m7 176r13 179r43
+58f12*PZ{13|268F9} 12|172m4 177m7 177r13 179r47
+59a4*Bodies(30|190R9) 12|72r31 72r48 77r16 77r30 78r24 79r30 79r44 80r30
+. 80r44 81r30 81r44 119r16 119r30 120r24 121m13 121r28 121r60 122m13 122r28
+. 122r60 123m13 123r28 123r60 125m13 125r29 125r61 126m13 126r29 126r61 127m13
+. 127r29 127r60 134m16 134r16 148r16 149r26 150r19 150r34 151r23 151r38 152r23
+. 152r38 153r24 155r43 157r22 158r22 159r22 162r27 174r13 179m28 179r28
+61U14*Advance 61>22 12|71b14 142l8 142t15
+61f22 DT{13|268F9} 12|71b22 109r31 109r35 136r24 137r24 138r24
+62V13*Energy{13|268F9} 12|144b13 167l8 167t14
+X 12 nbody.gnat-2.gnat
+72i7 N{integer} 91r20
+73a7 R_Array{11|53A9} 79m13 80m13 81m13 92r21 93r21 94r21 95r21 96r21 97r21
+. 121r44 122r44 123r44 125r45 126r45 127r44
+74a7 Mag{11|55A9} 111m13 112m13 121r77 122r77 123r77 125r78 126r78 127r77
+75i7 K{integer} 79r21 80r21 81r21 83m13 83r18 90m10 91r16 92r29 93r29 94r29
+. 95r29 96r29 97r29 111r17 112r17 114m13 114r17 118m7 121r52 121r81 122r52
+. 122r81 123r52 123r81 125r53 125r82 126r53 126r82 127r52 127r81 129m13 129r18
+77i11 I{integer} 78r19 79r37 80r37 81r37
+78i14 J{integer} 79r51 80r51 81r51
+88a10 DX{13|272A9} 92m13 95m13 99r34 99r38
+88a14 DY{13|272A9} 93m13 96m13 99r53 99r57
+88a18 DZ{13|272A9} 94m13 97m13 99r72 99r76
+88a22 D_Squared{13|272A9} 99m13 101r63 105r34 109r40
+88a33 Distance{13|272A9} 101m13 104m16 104r27 105r47 106r20 106r31 109r53
+88a43 dmag{13|272A9} 109m13 111r22 112r24
+103i17 J{integer}
+119i11 I{integer} 120r19 121r20 121r35 122r20 122r35 123r20 123r35 125r68
+. 126r68 127r67
+120i14 J{integer} 121r67 122r67 123r67 125r20 125r36 126r20 126r36 127r20
+. 127r36
+134r11 I=134:16{30|190R9} 136r10 136r17 136r29 137r10 137r17 137r29 138r10
+. 138r17 138r29
+145f7 E{13|268F9} 149m10 149r15 162m16 162r21 166r14
+146f7 DX{13|268F9} 157m16 161r33 161r36
+146f11 DY{13|268F9} 158m16 161r41 161r44
+146f15 DZ{13|268F9} 159m16 161r49 161r52
+146f19 Distance{13|268F9} 161m16 162r59
+148i11 I{integer} 149r33 150r26 150r41 151r30 151r45 152r30 152r45 153r19
+. 157r29 158r29 159r29 162r34
+153i14 J{integer} 155r50
+155r16 J_Body{30|190R9} 157r36 158r36 159r36 162r44
+174r8 I=174:13{30|190R9} 175r19 175r26 176r19 176r26 177r19 177r26
+X 13 nbody.gnat-2.gnat
+263K9*Root 11|44w6 44r16 13|330e9
+268F9*S_Real<long_float> 11|50r27 55r39 58r16 61r26 62r27 12|71r26 144r27
+. 145r10 146r30
+272A9*m128d(268F9)<integer> 12|88r49
+276A9*m128s(float)<integer>
+281V13*ia32_Div{272A9} 12|109s21
+289V13*ia32_Mul{272A9} 12|99s25 99s44 99s63
+301V13*Sqrt{268F9} 12|161s28
+304V14*"*"{272A9} 12|104s36 105s32 105s45 105s57 106s29 109s51
+306V14*"+"{272A9} 12|99s42 99s61
+308V14*"-"{272A9} 12|104s49
+311V13*ia32_RSqrt{276A9} 12|101s38
+315V13*ia32_CvtPD_PS{276A9} 12|101s49
+319V13*ia32_CvtPS_PD{272A9} 12|101s24
+X 30 nbody.gnat-2.gnat
+187K9*Systems 11|42w6 42r19 12|179r4 30|244e12
+190R9*System 11|59r27 12|155r33 30|195e14
+191f7*X{13|268F9} 12|79r40 79r54 136m12 136r19 157r32 157r43
+191f10*Y{13|268F9} 12|80r40 80r54 137m12 137r19 158r32 158r43
+191f13*Z{13|268F9} 12|81r40 81r54 138m12 138r19 159r32 159r43
+193f7*VX{13|268F9} 12|121m23 121r38 125m23 125r39 136r31 150r29 150r44 175r21
+193f11*VY{13|268F9} 12|122m23 122r38 126m23 126r39 137r31 151r33 151r48 176r21
+193f15*VZ{13|268F9} 12|123m23 123r38 127m23 127r39 138r31 152r33 152r48 177r21
+194f7*Mass{13|268F9} 12|121r70 122r70 123r70 125r71 126r71 127r70 149r36
+. 162r37 162r51 175r28 176r28 177r28
+201r4*Jupiter{190R9} 11|59r41
+210r4*Saturn{190R9} 11|59r50
+219r4*Uranus{190R9} 11|59r58
+228r4*Neptune{190R9} 11|59r66
+237r4*Sun{190R9} 11|59r36
+241U14*Offset_Momentum 12|179s12
+

@@ -1,0 +1,178 @@
+V "GNAT Lib v9"
+M P W=b
+A -O3
+A -fomit-frame-pointer
+A -mfpmath=sse
+A -gnatN
+A -gnatp
+A -march=sandybridge
+A -mmmx
+A -mno-3dnow
+A -msse
+A -msse2
+A -msse3
+A -mssse3
+A -mno-sse4a
+A -mcx16
+A -msahf
+A -mno-movbe
+A -mno-aes
+A -mno-sha
+A -mpclmul
+A -mpopcnt
+A -mno-abm
+A -mno-lwp
+A -mno-fma
+A -mno-fma4
+A -mno-xop
+A -mno-bmi
+A -mno-sgx
+A -mno-bmi2
+A -mno-pconfig
+A -mno-wbnoinvd
+A -mno-tbm
+A -mavx
+A -mno-avx2
+A -msse4.2
+A -msse4.1
+A -mno-lzcnt
+A -mno-rtm
+A -mno-hle
+A -mno-rdrnd
+A -mno-f16c
+A -mno-fsgsbase
+A -mno-rdseed
+A -mno-prfchw
+A -mno-adx
+A -mfxsr
+A -mxsave
+A -mxsaveopt
+A -mno-avx512f
+A -mno-avx512er
+A -mno-avx512cd
+A -mno-avx512pf
+A -mno-prefetchwt1
+A -mno-clflushopt
+A -mno-xsavec
+A -mno-xsaves
+A -mno-avx512dq
+A -mno-avx512bw
+A -mno-avx512vl
+A -mno-avx512ifma
+A -mno-avx512vbmi
+A -mno-avx5124fmaps
+A -mno-avx5124vnniw
+A -mno-clwb
+A -mno-mwaitx
+A -mno-clzero
+A -mno-pku
+A -mno-rdpid
+A -mno-gfni
+A -mno-shstk
+A -mno-avx512vbmi2
+A -mno-avx512vnni
+A -mno-vaes
+A -mno-vpclmulqdq
+A -mno-avx512bitalg
+A -mno-avx512vpopcntdq
+A -mno-movdiri
+A -mno-movdir64b
+A -mno-waitpkg
+A -mno-cldemote
+A -mno-ptwrite
+A -mtune=sandybridge
+P ZX
+
+RN
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U nbody%b		nbody.adb		ca7f9075 NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.command_line%s	a-comlin.adb		a-comlin.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z ada.text_io.float_aux%s  a-tiflau.adb		a-tiflau.ali
+Z ada.text_io.float_io%s
+W nbody_pck%s		nbody_pck.adb		nbody_pck.ali
+W root%s		root.adb		root.ali
+Z system.fat_lflt%s	s-fatlfl.ads		s-fatlfl.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+Z system.val_int%s	s-valint.adb		s-valint.ali
+
+D ada.ads		20210601075304 76789da1 ada%s
+D a-comlin.ads		20210601075304 4aa66568 ada.command_line%s
+D a-except.ads		20210601075304 291912d5 ada.exceptions%s
+D a-ioexce.ads		20210601075304 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20210601075304 119b8fb3 ada.streams%s
+D a-tags.ads		20210601075304 491b781d ada.tags%s
+D a-textio.ads		20210601075304 881db35a ada.text_io%s
+D a-tiflau.ads		20210601075304 c0393f21 ada.text_io.float_aux%s
+D a-tiflio.ads		20210601075304 56fbda09 ada.text_io.float_io%s
+D a-tiflio.adb		20210601075304 fd9b1cfc ada.text_io.float_io%b
+D a-unccon.ads		20210601075304 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20210601075304 5ab55268 interfaces%s
+D i-cstrea.ads		20210601075304 e53d8b8e interfaces.c_streams%s
+D i-cstrea.adb		20210601075304 98747b85 interfaces.c_streams%b
+D nbody.adb		20231219131108 5514272a nbody%b 1:nbody.gnat-2.gnat
+D nbody_pck.ads		20231219131108 78adddd2 nbody_pck%s 38:nbody.gnat-2.gnat
+D root.ads		20231219131108 257dbcbf root%s 259:nbody.gnat-2.gnat
+D root.adb		20231219131108 6376fea3 root%b 331:nbody.gnat-2.gnat
+D system.ads		20210601075304 4635ec04 system%s
+D s-crtl.ads		20210601075304 0ebbdb71 system.crtl%s
+D s-exctab.ads		20210601075304 54135002 system.exception_table%s
+D s-fatgen.ads		20210601075304 49cbaf86 system.fat_gen%s
+D s-fatgen.adb		20210601075304 28cd35f5 system.fat_gen%b
+D s-fatlfl.ads		20210601075304 378cba9f system.fat_lflt%s
+D s-ficobl.ads		20210601075304 078245e4 system.file_control_block%s
+D s-parame.ads		20210601075304 48ec542b system.parameters%s
+D s-secsta.ads		20210601075304 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20210601075304 a7318a92 system.soft_links%s
+D s-stache.ads		20210601075304 a37c21ec system.stack_checking%s
+D s-stalib.ads		20210601075304 09bd3940 system.standard_library%s
+D s-stoele.ads		20210601075304 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20210601075304 ed88f8fb system.storage_elements%b
+D s-traent.ads		20210601075304 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20210601075304 34867c83 system.unsigned_types%s
+D s-valint.ads		20210601075304 48a52a3f system.val_int%s
+D s-wchcon.ads		20210601075304 1b7d22d2 system.wch_con%s
+D s-wchcon.adb		20210601075304 974e87c5 system.wch_con%b
+D systems.ads		20231219131108 6e8536f6 systems%s 182:nbody.gnat-2.gnat
+D systems.adb		20231219131108 bd320392 systems%b 245:nbody.gnat-2.gnat
+X 1 ada.ads
+16K9*Ada 20e8 15|11r6 11r28 12r6 12r28 20r23
+X 2 a-comlin.ads
+36K13*Command_Line 144e21 15|11w10 11r32
+52V13*Argument{string} 15|18s44
+X 7 a-textio.ads
+49K13*Text_IO 471e16 15|12w10 12r32 20r27
+73I12*Field{integer} 15|23r29 23r47 24r14
+166U14*New_Line 15|28s4 35s4
+X 9 a-tiflio.ads
+46k21*Float_IO 89e25 15|20r35
+68U14 Put 15|24r38[20]
+X 15 nbody.gnat-2.gnat
+15U11*Nbody 15b11 37l5 37t10
+18i4 N{positive} 30r18
+20K12 RIO[9|46] 24r34
+22U14 Put=24:38 27s4 34s4
+23f7 Item{17|268F9}
+23i22 Fore{7|73I12}
+23i41 Aft{7|73I12}
+24i7 Exp{7|73I12}
+30i8 I{integer}
+X 16 nbody.gnat-2.gnat
+45K9*Nbody_Pck 15|13w6 13r23 16|64e14
+61U14*Advance 15|31s7
+62V13*Energy{17|268F9} 15|27s9 34s9
+X 17 nbody.gnat-2.gnat
+263K9*Root 15|14w6 14r16 17|330e9
+268F9*S_Real<long_float> 15|20r45 23r14
+

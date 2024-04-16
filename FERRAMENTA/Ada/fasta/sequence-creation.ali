@@ -1,0 +1,210 @@
+V "GNAT Lib v9"
+A -O3
+A -fomit-frame-pointer
+A -mfpmath=sse
+A -gnatN
+A -gnatp
+A -march=sandybridge
+A -mmmx
+A -mno-3dnow
+A -msse
+A -msse2
+A -msse3
+A -mssse3
+A -mno-sse4a
+A -mcx16
+A -msahf
+A -mno-movbe
+A -mno-aes
+A -mno-sha
+A -mpclmul
+A -mpopcnt
+A -mno-abm
+A -mno-lwp
+A -mno-fma
+A -mno-fma4
+A -mno-xop
+A -mno-bmi
+A -mno-sgx
+A -mno-bmi2
+A -mno-pconfig
+A -mno-wbnoinvd
+A -mno-tbm
+A -mavx
+A -mno-avx2
+A -msse4.2
+A -msse4.1
+A -mno-lzcnt
+A -mno-rtm
+A -mno-hle
+A -mno-rdrnd
+A -mno-f16c
+A -mno-fsgsbase
+A -mno-rdseed
+A -mno-prfchw
+A -mno-adx
+A -mfxsr
+A -mxsave
+A -mxsaveopt
+A -mno-avx512f
+A -mno-avx512er
+A -mno-avx512cd
+A -mno-avx512pf
+A -mno-prefetchwt1
+A -mno-clflushopt
+A -mno-xsavec
+A -mno-xsaves
+A -mno-avx512dq
+A -mno-avx512bw
+A -mno-avx512vl
+A -mno-avx512ifma
+A -mno-avx512vbmi
+A -mno-avx5124fmaps
+A -mno-avx5124vnniw
+A -mno-clwb
+A -mno-mwaitx
+A -mno-clzero
+A -mno-pku
+A -mno-rdpid
+A -mno-gfni
+A -mno-shstk
+A -mno-avx512vbmi2
+A -mno-avx512vnni
+A -mno-vaes
+A -mno-vpclmulqdq
+A -mno-avx512bitalg
+A -mno-avx512vpopcntdq
+A -mno-movdiri
+A -mno-movdir64b
+A -mno-waitpkg
+A -mno-cldemote
+A -mno-ptwrite
+A -mtune=sandybridge
+P ZX
+
+RN
+RV NO_DISPATCHING_CALLS
+RV NO_FINALIZATION
+RV NO_FLOATING_POINT
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLICIT_LOOPS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U sequence.creation%b	sequence-creation.adb	af89db6a NE OO PK
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W lcg_random%s		lcg_random.adb		lcg_random.ali  ED
+W line_io%s		line_io.adb		line_io.ali
+W sequence%s		sequence.ads		sequence.ali
+
+U sequence.creation%s	sequence-creation.ads	a70d383f EE OO PF PK
+W ada%s			ada.ads			ada.ali
+W ada.finalization%s	a-finali.ads		a-finali.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W sequence%s		sequence.ads		sequence.ali
+Z system%s		system.ads		system.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.storage_elements%s  s-stoele.adb	s-stoele.ali
+
+D ada.ads		20210601075304 76789da1 ada%s
+D a-except.ads		20210601075304 291912d5 ada.exceptions%s
+D a-finali.ads		20210601075304 bf4f806b ada.finalization%s
+D a-ioexce.ads		20210601075304 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20210601075304 119b8fb3 ada.streams%s
+D a-ststio.ads		20210601075304 a75f3183 ada.streams.stream_io%s
+D a-tags.ads		20210601075304 491b781d ada.tags%s
+D a-unccon.ads		20210601075304 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20210601075304 5ab55268 interfaces%s
+D i-cstrea.ads		20210601075304 e53d8b8e interfaces.c_streams%s
+D i-cstrea.adb		20210601075304 98747b85 interfaces.c_streams%b
+D lcg_random.ads	20231219131109 581169dd lcg_random%s 268:fasta.gnat-5.gnat
+D lcg_random.adb	20231219131109 31d5df90 lcg_random%b 281:fasta.gnat-5.gnat
+D line_io.ads		20231219131109 15294d2a line_io%s 217:fasta.gnat-5.gnat
+D line_io.adb		20231219131109 41493871 line_io%b 231:fasta.gnat-5.gnat
+D sequence.ads		20231219131109 621efd95 sequence%s 80:fasta.gnat-5.gnat
+D sequence-creation.ads	20231219131109 7a5c45c1 sequence.creation%s 52:fasta.gnat-5.gnat
+D sequence-creation.adb	20231219131109 98edba5c sequence.creation%b 99:fasta.gnat-5.gnat
+D system.ads		20210601075304 4635ec04 system%s
+D s-crtl.ads		20210601075304 0ebbdb71 system.crtl%s
+D s-exctab.ads		20210601075304 54135002 system.exception_table%s
+D s-ficobl.ads		20210601075304 078245e4 system.file_control_block%s
+D s-finroo.ads		20210601075304 4ff27390 system.finalization_root%s
+D s-parame.ads		20210601075304 48ec542b system.parameters%s
+D s-secsta.ads		20210601075304 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20210601075304 a7318a92 system.soft_links%s
+D s-stache.ads		20210601075304 a37c21ec system.stack_checking%s
+D s-stalib.ads		20210601075304 09bd3940 system.standard_library%s
+D s-stoele.ads		20210601075304 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20210601075304 ed88f8fb system.storage_elements%b
+D s-traent.ads		20210601075304 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20210601075304 34867c83 system.unsigned_types%s
+D unchconv.ads		20210601075304 ca2f9e18 unchecked_conversion%s
+X 1 ada.ads
+16K9*Ada 20e8 17|54r6 68r28
+X 3 a-finali.ads
+40K13*Finalization 68e21 17|54w10 68r32
+50H9*Limited_Controlled<23|40R9> 66e55 17|68r45
+X 12 fasta.gnat-5.gnat
+274k9*LCG_Random 280e15 18|100w6 105r36
+276V13*Gen_Random{16|85F9} 18|137s31[105]
+X 14 fasta.gnat-5.gnat
+218K9*Line_IO 230e12 18|101w6 111r7 117r7 122r33 154r7 173r10 180r10 196r7
+. 202r10 203r10
+220U14*Print 18|154s15 173s18 180s18 196s15 202s18 203s18
+222U14*Close_Stdout 18|117s15
+224U14*Open_Stdout 18|111s15
+226a4*End_of_Line{string} 18|122r41
+X 16 fasta.gnat-5.gnat
+81K9*Sequence 98e13 17|56r9 79r5 18|103r14 216r5
+85F9*Real<long_float> 18|105r48 137r23 150r14
+87R9*Nucleotide 90e14 18|129r52
+88e7*C{character} 18|143r47 158m31 158r51
+89f7*P{85F9} 18|142r37 163r38 164m31
+94I12*Nucleotide_Index{integer} 18|129r31
+96A9*Nucleotide_Set(87R9)<integer> 17|60r24 18|133r24
+X 17 fasta.gnat-5.gnat
+56K18*Creation 16|81k9 17|74E14 79l14 79e22 18|103b23 216l14 216t22
+58U14*Make_Random_Fasta 59>7 60>7 61>7 18|131b14 183l8 183t25
+59a7 Title{string} 18|132b7 154r22
+60a7 Nucleotides{16|96A9} 18|133b7 157r16 158r36 162r16 163r23
+61i7 N{positive} 18|134b7 151r46 152r46
+63U14*Make_Repeat_Fasta 64>7 65>7 66>7 18|185b14 214l8 214t25
+64a7 Title{string} 18|186b7 196r22
+65a7 S{string} 18|187b7 190r34 190r38 190r40 190r51 208r19 209r26
+66i7 N{positive} 18|188b7 193r36
+68R9*Environment<3|50R9> 69e22 74P14 74r42 77P14 77r40 18|109r42 115r40 23|42p14
+74U14 Initialize<3|53p14> 74=26 18|109b14 112l8 112t18
+74r26 Active{68R9} 18|109b26
+77U14 Finalize<3|54p14> 77=24 18|115b14 118l8 118t16
+77r24 Active{68R9} 18|115b24
+X 18 fasta.gnat-5.gnat
+105K12 Real_Random_Nums[12|274] 106r8
+121N4 Line_Length 125r13 125r32 127r31 151r52 152r52 170r24 190r61 200r62
+122a4 End_of_Line=122:41{string} 125r46 127r45 154r30 167r42 180r61 196r30
+. 203r25
+124I12 Line_End_Positions{positive} 167r19
+127a4 Line_Buffer{string} 167m7 171m13 173r25 178m13 180r25
+129a4 Nucleo_Cumulative(16|87R9) 141r19 142r16 143r26 156m7 158m10 164m10
+136V16 Random_Nucleotide{character} 136b16 148l11 148t28 171s31 178s31
+137f10 r{16|85F9} 142r41
+138e10 Result{character} 143m16 147r17
+140l10 Choose_Random 144r21 146l19 146e32
+141i14 i{integer} 142r34 143r44
+150f7 Sum{16|85F9} 161m7 163m10 163r17 164r36
+151i7 Remaining_Chars{natural} 176r10 177r24 180r42
+152i7 No_of_Full_Lines{natural} 169r21
+157i11 k{integer} 158r28 158r48
+162i11 k{integer} 163r35 164r28
+169i11 k{integer}
+170i14 i{integer} 171r25
+177i14 i{integer} 178r25
+190a7 S_App=190:36{string} 192r25 202r25
+192i7 Pos{positive} 202r32 202r39 207m10 207r17 208r13 209m13 209r20
+193i7 Remaining_Chars{natural} 198r13 200r45 205m10 205r29
+194i7 No_of_Chars_Output{natural} 200m10 202r45 205r47 207r23
+X 23 s-finroo.ads
+42U14*Adjust
+

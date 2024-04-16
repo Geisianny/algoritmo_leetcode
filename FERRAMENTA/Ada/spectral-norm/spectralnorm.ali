@@ -1,0 +1,287 @@
+V "GNAT Lib v9"
+M P W=b
+A -O3
+A -fomit-frame-pointer
+A -mfpmath=sse
+A -gnatN
+A -gnatp
+A -march=sandybridge
+A -mmmx
+A -mno-3dnow
+A -msse
+A -msse2
+A -msse3
+A -mssse3
+A -mno-sse4a
+A -mcx16
+A -msahf
+A -mno-movbe
+A -mno-aes
+A -mno-sha
+A -mpclmul
+A -mpopcnt
+A -mno-abm
+A -mno-lwp
+A -mno-fma
+A -mno-fma4
+A -mno-xop
+A -mno-bmi
+A -mno-sgx
+A -mno-bmi2
+A -mno-pconfig
+A -mno-wbnoinvd
+A -mno-tbm
+A -mavx
+A -mno-avx2
+A -msse4.2
+A -msse4.1
+A -mno-lzcnt
+A -mno-rtm
+A -mno-hle
+A -mno-rdrnd
+A -mno-f16c
+A -mno-fsgsbase
+A -mno-rdseed
+A -mno-prfchw
+A -mno-adx
+A -mfxsr
+A -mxsave
+A -mxsaveopt
+A -mno-avx512f
+A -mno-avx512er
+A -mno-avx512cd
+A -mno-avx512pf
+A -mno-prefetchwt1
+A -mno-clflushopt
+A -mno-xsavec
+A -mno-xsaves
+A -mno-avx512dq
+A -mno-avx512bw
+A -mno-avx512vl
+A -mno-avx512ifma
+A -mno-avx512vbmi
+A -mno-avx5124fmaps
+A -mno-avx5124vnniw
+A -mno-clwb
+A -mno-mwaitx
+A -mno-clzero
+A -mno-pku
+A -mno-rdpid
+A -mno-gfni
+A -mno-shstk
+A -mno-avx512vbmi2
+A -mno-avx512vnni
+A -mno-vaes
+A -mno-vpclmulqdq
+A -mno-avx512bitalg
+A -mno-avx512vpopcntdq
+A -mno-movdiri
+A -mno-movdir64b
+A -mno-waitpkg
+A -mno-cldemote
+A -mno-ptwrite
+A -mtune=sandybridge
+P ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_DISPATCH
+RV NO_DISPATCHING_CALLS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_LOCAL_ALLOCATORS
+RV NO_SECONDARY_STACK
+RV NO_SELECT_STATEMENTS
+RV NO_STANDARD_ALLOCATORS_AFTER_ELABORATION
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_TASK_HIERARCHY
+RV NO_TASKING
+RV NO_TERMINATE_ALTERNATIVES
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLICIT_LOOPS
+RV STATIC_DISPATCH_TABLES
+RV SPARK_05
+RV MAX_SELECT_ALTERNATIVES=2
+RV MAX_TASK_ENTRIES=2
+RV MAX_TASKS=1+
+
+U spectralnorm%b	spectralnorm.adb	644288aa NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.command_line%s	a-comlin.adb		a-comlin.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+Z ada.numerics.aux%s	a-numaux.adb		a-numaux.ali
+W ada.numerics.generic_elementary_functions%s
+Z ada.real_time%s	a-reatim.adb		a-reatim.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z ada.text_io.float_aux%s  a-tiflau.adb		a-tiflau.ali
+Z ada.text_io.float_io%s
+W division%s		division.ads		division.ali
+Z division.d%s		division-d.adb		division-d.ali
+Z division.s%s		division-s.ads		division-s.ali
+W spectral_utils%s	spectral_utils.adb	spectral_utils.ali
+Z spectral_utils.d%s	spectral_utils-d.adb	spectral_utils-d.ali
+W spectral_utils.dist%s	spectral_utils-dist.adb	spectral_utils-dist.ali
+Z spectral_utils.s%s	spectral_utils-s.adb	spectral_utils-s.ali
+Z system%s		system.ads		system.ali
+Z system.address_image%s  s-addima.adb		s-addima.ali
+Z system.exn_llf%s	s-exnllf.adb		s-exnllf.ali
+Z system.fat_lflt%s	s-fatlfl.ads		s-fatlfl.ali
+Z system.finalization_masters%s  s-finmas.adb	s-finmas.ali
+Z system.img_llu%s	s-imgllu.adb		s-imgllu.ali
+Z system.machine_code%s	s-maccod.ads		s-maccod.ali
+Z system.parameters%s	s-parame.adb		s-parame.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.storage_elements%s  s-stoele.adb	s-stoele.ali
+Z system.storage_pools%s  s-stopoo.adb		s-stopoo.ali
+Z system.task_info%s	s-tasinf.adb		s-tasinf.ali
+Z system.tasking%s	s-taskin.adb		s-taskin.ali
+Z system.tasking.rendezvous%s  s-tasren.adb	s-tasren.ali
+Z system.tasking.stages%s  s-tassta.adb		s-tassta.ali
+Z system.unsigned_types%s  s-unstyp.ads		s-unstyp.ali
+Z system.val_int%s	s-valint.adb		s-valint.ali
+
+D ada.ads		20210601075304 76789da1 ada%s
+D a-comlin.ads		20210601075304 4aa66568 ada.command_line%s
+D a-except.ads		20210601075304 291912d5 ada.exceptions%s
+D a-finali.ads		20210601075304 bf4f806b ada.finalization%s
+D a-ioexce.ads		20210601075304 e4a01f64 ada.io_exceptions%s
+D a-numeri.ads		20210601075304 bb51c45a ada.numerics%s
+D a-numaux.ads		20210601075304 243fe0b7 ada.numerics.aux%s
+D a-numaux.adb		20210601075304 ac46095f ada.numerics.aux%b
+D a-ngelfu.ads		20210601075304 55716239 ada.numerics.generic_elementary_functions%s
+D a-ngelfu.adb		20210601075304 a9022048 ada.numerics.generic_elementary_functions%b
+D a-reatim.ads		20210601075304 0240fc73 ada.real_time%s
+D a-stream.ads		20210601075304 119b8fb3 ada.streams%s
+D a-tags.ads		20210601075304 491b781d ada.tags%s
+D a-textio.ads		20210601075304 881db35a ada.text_io%s
+D a-tiflau.ads		20210601075304 c0393f21 ada.text_io.float_aux%s
+D a-tiflio.ads		20210601075304 56fbda09 ada.text_io.float_io%s
+D a-tiflio.adb		20210601075304 fd9b1cfc ada.text_io.float_io%b
+D a-unccon.ads		20210601075304 0e9b276f ada.unchecked_conversion%s
+D division.ads		20231219131110 c84b345f division%s 489:spectralnorm.gnat-4.gnat
+D division-d.ads	20231219131110 942edd67 division.d%s 519:spectralnorm.gnat-4.gnat
+D division-s.ads	20231219131110 417d0c86 division.s%s 499:spectralnorm.gnat-4.gnat
+D interfac.ads		20210601075304 5ab55268 interfaces%s
+D i-c.ads		20210601075304 5421119b interfaces.c%s
+D i-cstrea.ads		20210601075304 e53d8b8e interfaces.c_streams%s
+D i-cstrea.adb		20210601075304 98747b85 interfaces.c_streams%b
+D spectral_utils.ads	20231219131110 381ffe87 spectral_utils%s 56:spectralnorm.gnat-4.gnat
+D spectral_utils.adb	20231219131110 d0ddbce5 spectral_utils%b 95:spectralnorm.gnat-4.gnat
+D spectral_utils-d.ads	20231219131110 ba658b9d spectral_utils.d%s 113:spectralnorm.gnat-4.gnat
+D spectral_utils-d.adb	20231219131110 b2fa2795 spectral_utils.d%b 134:spectralnorm.gnat-4.gnat
+D spectral_utils-dist.ads  20231219131110 bd36bbe0 spectral_utils.dist%s 332:spectralnorm.gnat-4.gnat
+D spectral_utils-dist.adb  20231219131110 530c6592 spectral_utils.dist%b 368:spectralnorm.gnat-4.gnat
+D spectral_utils-s.ads	20231219131110 0ba0aa2a spectral_utils.s%s 219:spectralnorm.gnat-4.gnat
+D spectral_utils-s.adb	20231219131110 8f3bd94d spectral_utils.s%b 240:spectralnorm.gnat-4.gnat
+D spectralnorm.adb	20231219131110 beea4d99 spectralnorm%b 1:spectralnorm.gnat-4.gnat
+D system.ads		20210601075304 4635ec04 system%s
+D s-addima.ads		20210601075304 a1ec9d3a system.address_image%s
+D s-atacco.ads		20210601075304 4c36d12f system.address_to_access_conversions%s
+D s-crtl.ads		20210601075304 0ebbdb71 system.crtl%s
+D s-exctab.ads		20210601075304 54135002 system.exception_table%s
+D s-exnllf.ads		20210601075304 bc7ebbdc system.exn_llf%s
+D s-fatgen.ads		20210601075304 49cbaf86 system.fat_gen%s
+D s-fatgen.adb		20210601075304 28cd35f5 system.fat_gen%b
+D s-fatlfl.ads		20210601075304 378cba9f system.fat_lflt%s
+D s-fatllf.ads		20210601075304 4d5c1475 system.fat_llf%s
+D s-ficobl.ads		20210601075304 078245e4 system.file_control_block%s
+D s-finmas.ads		20210601075304 7811a767 system.finalization_masters%s
+D s-finroo.ads		20210601075304 4ff27390 system.finalization_root%s
+D s-imgllu.ads		20210601075304 49c900c3 system.img_llu%s
+D s-imgllu.adb		20210601075304 43dc5537 system.img_llu%b
+D s-linux.ads		20210601075304 ed0b8aee system.linux%s
+D s-maccod.ads		20210601075304 6d68a701 system.machine_code%s
+D s-multip.ads		20210601075304 38ac9f73 system.multiprocessors%s
+D s-oscons.ads		20221024092806 0b994636 system.os_constants%s
+D s-osinte.ads		20221024092806 710cf8c6 system.os_interface%s
+D s-parame.ads		20210601075304 48ec542b system.parameters%s
+D s-secsta.ads		20210601075304 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20210601075304 a7318a92 system.soft_links%s
+D s-soflin.adb		20210601075304 f811fd3c system.soft_links%b
+D s-soliin.ads		20210601075304 f1a676b9 system.soft_links.initialize%s
+D s-stache.ads		20210601075304 a37c21ec system.stack_checking%s
+D s-stausa.ads		20210601075304 017a0a05 system.stack_usage%s
+D s-stalib.ads		20210601075304 09bd3940 system.standard_library%s
+D s-stoele.ads		20210601075304 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20210601075304 ed88f8fb system.storage_elements%b
+D s-stopoo.ads		20210601075304 b16154c2 system.storage_pools%s
+D s-tasinf.ads		20210601075304 2b3f8252 system.task_info%s
+D s-taspri.ads		20210601075304 f40ac08d system.task_primitives%s
+D s-taprop.ads		20210601075304 1dd2e1b6 system.task_primitives.operations%s
+D s-taskin.ads		20210601075304 b9d612e2 system.tasking%s
+D s-taprob.ads		20210601075304 acd6094d system.tasking.protected_objects%s
+D s-tpoben.ads		20210601075304 60ad3dae system.tasking.protected_objects.entries%s
+D s-tasren.ads		20210601075304 a67a9949 system.tasking.rendezvous%s
+D s-tassta.ads		20210601075304 cca55c94 system.tasking.stages%s
+D s-traent.ads		20210601075304 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20210601075304 34867c83 system.unsigned_types%s
+D s-valint.ads		20210601075304 48a52a3f system.val_int%s
+D s-wchcon.ads		20210601075304 1b7d22d2 system.wch_con%s
+D s-wchcon.adb		20210601075304 974e87c5 system.wch_con%b
+X 1 ada.ads
+16K9*Ada 20e8 34|8r6 9r6 10r6 10r28 21r27 22r30 54r4
+X 2 a-comlin.ads
+36K13*Command_Line 144e21 34|10w10 10r32
+39V13*Argument_Count{natural} 34|28s7
+52V13*Argument{string} 34|29s28
+X 6 a-numeri.ads
+16K13*Numerics 32e17 34|9r10 22r34
+X 9 a-ngelfu.ads
+39k22*Generic_Elementary_Functions 205e46 34|9w19 22r43
+52V13 Sqrt<long_float> 34|53s24[22]
+X 14 a-textio.ads
+49K13*Text_IO 471e16 34|8w10 21r31 54r8
+73I12*Field{integer}
+166U14*New_Line 34|54s16
+X 16 a-tiflio.ads
+46k21*Float_IO 89e25 34|21r39
+68U14 Put 34|53s12[21]
+69f7 Item{19|494F9} 34|53r16[21]
+70i7 Fore{14|73I12} 34|53r38[21]
+71i7 Aft{14|73I12} 34|53r49[21]
+72i7 Exp{14|73I12} 34|53r59[21]
+X 19 spectralnorm.gnat-4.gnat
+490K9*Division 498e13 34|12w6 18r20
+494F9*SSE_Real<long_float> 34|18r29
+X 26 spectralnorm.gnat-4.gnat
+61i4 Matrix_Order{positive} 34|36r10
+62k9*Spectral_Utils 94e19 34|11w6 11r22 35r31
+64F12 Real{19|494F9}
+66M9 Matrix_Index
+70A9 Matrix(64F12[34|35])<66M9[34|35]> 34|41r11[35] 42r11[35]
+73C9 Matrix_Computation<73R9[34|35]>
+73H9 Matrix_Computation 34|40r29[35]
+75V13 Make_Calculator{73C9[34|35]} 34|40s57[35]
+X 30 spectralnorm.gnat-4.gnat
+334i4 Number_Of_Tasks{positive} 34|38r10
+335k24 Dist 367e24 34|11w37
+343U14 Eval_Ata_Times_U 34|45s10[37] 46s10[37]
+X 34 spectralnorm.gnat-4.gnat
+14U11*SpectralNorm 14b11 55l5 55t17
+16N4 No_of_Cores_to_Use 38r29
+18F12 Real{19|494F9} 19r13 21r49 22r73 26r14
+21K12 Real_IO[16|46] 53r4
+22K12 Real_Funcs[9|39] 23r8
+25i4 N{positive} 29m7 36r26
+26f4 Vbv{18F12} 49m10 49r17 53r29
+26f9 Vv{18F12} 50m10 50r17 53r33
+35K15 Spectrum[26|62] 37r27 39r11
+37K15 Calc[30|335] 39r21
+40c7 Calculator<26|73R9[35]> 45r28 46r28
+41a7 U{26|70A9[35]} 45r40 46m43 49r23
+42a7 V{26|70A9[35]} 45m43 46r40 48r16 49r30 50r23 50r30
+44i11 I{integer}
+48m11 I{26|66M9[35]} 49r25 49r32 50r25 50r32
+X 61 s-stausa.ads
+203U14*Initialize 204i<c,__gnat_stack_usage_initialize>22
+268U14*Output_Results 272i<c,__gnat_stack_usage_output_results>22
+

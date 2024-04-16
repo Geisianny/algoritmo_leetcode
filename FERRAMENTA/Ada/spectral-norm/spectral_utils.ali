@@ -1,0 +1,148 @@
+V "GNAT Lib v9"
+A -O3
+A -fomit-frame-pointer
+A -mfpmath=sse
+A -gnatN
+A -gnatp
+A -march=sandybridge
+A -mmmx
+A -mno-3dnow
+A -msse
+A -msse2
+A -msse3
+A -mssse3
+A -mno-sse4a
+A -mcx16
+A -msahf
+A -mno-movbe
+A -mno-aes
+A -mno-sha
+A -mpclmul
+A -mpopcnt
+A -mno-abm
+A -mno-lwp
+A -mno-fma
+A -mno-fma4
+A -mno-xop
+A -mno-bmi
+A -mno-sgx
+A -mno-bmi2
+A -mno-pconfig
+A -mno-wbnoinvd
+A -mno-tbm
+A -mavx
+A -mno-avx2
+A -msse4.2
+A -msse4.1
+A -mno-lzcnt
+A -mno-rtm
+A -mno-hle
+A -mno-rdrnd
+A -mno-f16c
+A -mno-fsgsbase
+A -mno-rdseed
+A -mno-prfchw
+A -mno-adx
+A -mfxsr
+A -mxsave
+A -mxsaveopt
+A -mno-avx512f
+A -mno-avx512er
+A -mno-avx512cd
+A -mno-avx512pf
+A -mno-prefetchwt1
+A -mno-clflushopt
+A -mno-xsavec
+A -mno-xsaves
+A -mno-avx512dq
+A -mno-avx512bw
+A -mno-avx512vl
+A -mno-avx512ifma
+A -mno-avx512vbmi
+A -mno-avx5124fmaps
+A -mno-avx5124vnniw
+A -mno-clwb
+A -mno-mwaitx
+A -mno-clzero
+A -mno-pku
+A -mno-rdpid
+A -mno-gfni
+A -mno-shstk
+A -mno-avx512vbmi2
+A -mno-avx512vnni
+A -mno-vaes
+A -mno-vpclmulqdq
+A -mno-avx512bitalg
+A -mno-avx512vpopcntdq
+A -mno-movdiri
+A -mno-movdir64b
+A -mno-waitpkg
+A -mno-cldemote
+A -mno-ptwrite
+A -mtune=sandybridge
+P ZX
+
+RN
+RV NO_DISPATCH
+RV NO_FLOATING_POINT
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U spectral_utils%b	spectral_utils.adb	590763d5 NE OO PK GE
+W spectral_utils%s	spectral_utils.adb	spectral_utils.ali
+W spectral_utils.d%s	spectral_utils-d.adb	spectral_utils-d.ali
+W spectral_utils.s%s	spectral_utils-s.adb	spectral_utils-s.ali
+
+U spectral_utils%s	spectral_utils.ads	b66126dc BN EE NE OO PK GE
+W division%s		division.ads		division.ali
+W system%s		system.ads		system.ali
+
+D division.ads		20231219131110 c84b345f division%s 489:spectralnorm.gnat-4.gnat
+D division-d.ads	20231219131110 942edd67 division.d%s 519:spectralnorm.gnat-4.gnat
+D division-s.ads	20231219131110 417d0c86 division.s%s 499:spectralnorm.gnat-4.gnat
+D spectral_utils.ads	20231219131110 381ffe87 spectral_utils%s 56:spectralnorm.gnat-4.gnat
+D spectral_utils.adb	20231219131110 d0ddbce5 spectral_utils%b 95:spectralnorm.gnat-4.gnat
+D spectral_utils-d.ads	20231219131110 ba658b9d spectral_utils.d%s 113:spectralnorm.gnat-4.gnat
+D spectral_utils-d.adb	20231219131110 b2fa2795 spectral_utils.d%b 134:spectralnorm.gnat-4.gnat
+D spectral_utils-s.ads	20231219131110 0ba0aa2a spectral_utils.s%s 219:spectralnorm.gnat-4.gnat
+D spectral_utils-s.adb	20231219131110 8f3bd94d spectral_utils.s%b 240:spectralnorm.gnat-4.gnat
+D system.ads		20210601075304 4635ec04 system%s
+X 1 spectralnorm.gnat-4.gnat
+490K9*Division 498e13 4|58w6 64r20
+494F9*SSE_Real<long_float> 4|64r29
+X 4 spectralnorm.gnat-4.gnat
+61i4 Matrix_Order{positive} 68r57
+62k9*Spectral_Utils 61z4 94l5 94e19 5|96r6 96r24 98b14 100r25 101r25 112l5
+. 112t19
+64F12*Real{1|494F9} 70r67
+66M9*Matrix_Index 68r27 68r43 70r25 83r30 91r30
+68m4*Matrix_Size{66M9} 70r49
+70A9*Matrix(64F12)<66M9> 82r30 84r30 90r30 92r30
+73H9*Matrix_Computation 73e66 75r36 80p14 81r30 88p14 89r30 5|103r36 106r32
+. 108r31
+75V13*Make_Calculator{73C9} 5|103b13 110l8 110t23
+80x14*Eval_A_Times 81>7 82>7 83>7 83>14 84<7
+81r7 Iron{73R9}
+82a7 U{70A9}
+83m7 Start{66M9}
+83m14 Finish{66M9}
+84a7 AU{70A9}
+88x14*Eval_At_Times 89>7 90>7 91>7 91>14 92<7
+89r7 Iron{73R9}
+90a7 U{70A9}
+91m7 Start{66M9}
+91m14 Finish{66M9}
+92a7 AU{70A9}
+X 5 spectralnorm.gnat-4.gnat
+100K12 Plain[6|114] 106r17
+101K12 Fancy[8|220] 108r17
+X 6 spectralnorm.gnat-4.gnat
+114k32 D 5|96w39 100r40 6|133e21
+116R9 Vanilla<4|73R9> 5|106r23[100]
+X 8 spectralnorm.gnat-4.gnat
+220k32 S 5|96w21 101r40 8|239e21
+222R9 Forced<4|73R9> 5|108r23[101]
+X 10 system.ads
+37K9*System 4|57w6 66r32 5|105r10 10|156e11
+72N4*Word_Size 4|66r39 5|105r17
+
